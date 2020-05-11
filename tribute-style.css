@@ -28,8 +28,8 @@ body {
 
 #image {
     margin-top: 15px;
-    width: 1024px;
-    height: 650px;
+    width: 900px;
+    height: 900px;
     box-shadow: 0 2px 3px gray;
 }
 
@@ -40,20 +40,69 @@ body {
     font-size: 14px;
 }
 
+#attribute-info {
+    display: flex;
+    width: 70%;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+
+#attributes {
+    text-align: center;
+    align-self: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0 10px;
+    flex-basis: 25%;
+}
+
+#attributes div {
+    margin-top: 30px;
+}
+
+#characteristics {
+    margin-right: 30px;
+    align-self: center;
+}
+
+#characteristics ul li {
+    margin-top: 10px;
+}
+
+#attribute-image {
+    width: 500px;
+    height: 700px;
+}
+
 #tribute-info {
     text-align: center;
-    margin: 0 auto;
+    margin: 50px auto;
     font-size: 15px;
+}
+
+#tribute-info h3 {
+    margin: 0 auto;
+    width: 850px;
+    text-align: left;
+}
+
+#tribute-info p {
+    text-align: left;
+    width: 850px;
+    margin: 10px auto;
 }
 
 #tribute-info ul {
     text-align: left;
-    width: 550px;
-    margin: 0 auto;
-    padding-bottom: 10px;
-    border-bottom: 2px solid gray;
+    width: 850px;
+    margin: 10px auto;
 }
 
-#tribute-info li {
+#tribute-info ul li {
     margin-top: 10px;
+}
+
+#footer-info {
+    text-align: center;
+    margin-top: 50px;
 }
