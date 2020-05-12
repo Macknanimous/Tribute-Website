@@ -8,21 +8,22 @@ html {
 }
 
 body {
-    background-color: rgb(231, 228, 228);
+    background-color: rgb(90, 63, 94);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(97, 97, 97);
+    color: rgb(218, 210, 210);
+    margin: 0;
 }
 
 #title {
     text-align: center;
     width: 900px;
     margin: 0 auto;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(218, 210, 210);
 }
 
 #img-div{
-    background-color: rgb(223, 217, 217);
-    margin-top: 15px;
+    background-color: rgb(78, 45, 50);
+    margin: 15px 10px;
     text-align: center;
 }
 
@@ -30,7 +31,7 @@ body {
     margin-top: 15px;
     width: 900px;
     height: 900px;
-    box-shadow: 0 2px 3px gray;
+    box-shadow: 0 2px 3px black;
 }
 
 #img-caption {
@@ -42,22 +43,30 @@ body {
 
 #attribute-info {
     display: flex;
-    width: 70%;
+    width: 75%;
     margin: 20px auto;
-    justify-content: space-around;
+    border-bottom: 2px solid rgb(218, 210, 210);
+    padding-bottom: 30px;
 }
 
 #attributes {
+    flex-direction: column;
     text-align: center;
     align-self: center;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    flex-shrink: 0;
+    border-left: 2px solid rgb(218, 210, 210);
+    border-right: 2px solid rgb(218, 210, 210);
     padding: 0 10px;
-    flex-basis: 25%;
+    flex-basis: 215px;
+    height: 300px;
 }
 
 #attributes div {
-    margin-top: 30px;
+    margin-top: 15px;
+}
+
+#attributes > div:first-of-type {
+    margin-top: 55px;
 }
 
 #characteristics {
@@ -72,11 +81,13 @@ body {
 #attribute-image {
     width: 500px;
     height: 700px;
+    box-shadow: 0 2px 3px black;
+    flex-shrink: 1;
 }
 
 #tribute-info {
     text-align: center;
-    margin: 50px auto;
+    margin: 20px auto;
     font-size: 15px;
 }
 
@@ -102,7 +113,19 @@ body {
     margin-top: 10px;
 }
 
+footer {
+    background-color: rgb(58, 40, 61);
+    padding: 5px;
+}
+
 #footer-info {
     text-align: center;
-    margin-top: 50px;
+}
+
+a {
+    color: rgb(218, 210, 210);
+}
+
+a:hover {
+    color: white;
 }
